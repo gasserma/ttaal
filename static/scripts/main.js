@@ -50,12 +50,14 @@ function selectionMade(item){
 			}
 		});
 		
-		$('#score').text('Right: ' + right + ' Wrong: ' + wrong);
+		$('#score').html('Right: <span class="label label-success">' + right + '</span> Wrong: <span class="label label-danger">' + wrong + '</span>');
+/*
 		if (currentCorrect) {
 			$('#score').effect("highlight", { color: 'green'}, 1000);
 		} else {
 			$('#score').effect("highlight", { color: 'red'}, 1000);	
 		}
+*/
 	}
 }
 
@@ -78,6 +80,7 @@ function nextClicked(){
 	var index = Math.floor(Math.random()*quotes.quotetriplets.length);
 	var quote = quotes.quotetriplets[index];
 	quotes.quotetriplets.splice(index, 1);
+	shuffle(quote);
 	
 	$('#q1q').text(quote[0].quote);
 	$('#q1s').text(quote[0].result);
@@ -108,4 +111,14 @@ function nextClicked(){
 	
 	$('.btn').addClass('disabled');
 	$(document.body).append('<style id="hoverstyle">.list-group-item:hover { background: gray; cursor: pointer; }</style>');
+}
+
+function shuffle(a) {
+    var j, x, i;
+    for (i = a.length; i; i--) {
+        j = Math.floor(Math.random() * i);
+        x = a[i - 1];
+        a[i - 1] = a[j];
+        a[j] = x;
+    }
 }
