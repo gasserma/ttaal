@@ -13,7 +13,7 @@
 				"result" : "Donald Trump"
 			},
 			{
-				"quote" : "Claiming a person can't do their job because of their race is sort of like the textbook definition of a racist comment",
+				"quote" : "Claiming a person can't do their job because of their race is sort of like the textbook definition of a racist comment.",
 				"source" : "http://www.politico.com/story/2016/06/paul-ryan-trump-judge-223991",
 				"result" : "Paul Ryan"
 			}
@@ -30,7 +30,7 @@
 				"result" : "Donald Trump"
 			},
 			{
-				"quote" : "Word Salad (noun): a string of empty, incoherent, unintelligible, or nonsensical words or comments",
+				"quote" : "Word Salad (noun): a string of empty, incoherent, unintelligible, or nonsensical words or comments.",
 				"source" : "https://www.merriam-webster.com/dictionary/word%20salad",
 				"result" : "Merriam Webster"
 			}
@@ -98,36 +98,19 @@
 				"result" : "Donald Trump"
 			},
 			{
-				"quote" : "He's written a lot of books about business. They all seem to end at Chapter 11",
+				"quote" : "He's written a lot of books about business. They all seem to end at Chapter 11.",
 				"source" : "http://www.politifact.com/truth-o-meter/statements/2016/jun/21/hillary-clinton/yep-donald-trumps-companies-have-declared-bankrupt/",
 				"result" : "Hillary Clinton"
 			}
 		],
 		[
 			{
-				"quote" : "Everything I've done virtually has been a tremendous success.",
-				"source" : "http://www.politico.com/magazine/story/2016/11/the-155-craziest-things-trump-said-this-cycle-214420",
-				"result" : "Donald Trump"
-			},
-			{
-				"quote" : "I've done it four times out of hundreds, and I'm glad I did it. I used the laws of the country to my benefit. I'm sorry.",
-				"source" : "http://www.politico.com/magazine/story/2016/11/the-155-craziest-things-trump-said-this-cycle-214420",
-				"result" : "Donald Trump"
-			},
-			{
-				"quote" : "He's written a lot of books about business. They all seem to end at Chapter 11",
-				"source" : "http://www.politifact.com/truth-o-meter/statements/2016/jun/21/hillary-clinton/yep-donald-trumps-companies-have-declared-bankrupt/",
-				"result" : "Hillary Clinton"
-			}
-		],
-		[
-			{
-				"quote" : "I'm speaking with myself, number one, because I have a very good brain and I've said a lot of things",
+				"quote" : "I'm speaking with myself, number one, because I have a very good brain and I've said a lot of things.",
 				"source" : "http://www.washingtontimes.com/news/2016/mar/17/donald-trump-i-consult-myself-on-foreign-policy-be/",
 				"result" : "Donald Trump"
 			},
 			{
-				"quote" : "I have a higher IQ than Obama. [reworded slightly]",
+				"quote" : "I have a higher IQ than Obama.",
 				"source" : "https://twitter.com/realDonaldTrump/status/332331185051156485",
 				"result" : "Donald Trump"
 			},
@@ -178,7 +161,7 @@
 				"result" : "Donald Trump"
 			},
 			{
-				"quote" : "[Rosie O'Donnell is a] fat pig",
+				"quote" : "[Rosie O'Donnell is a] fat pig.",
 				"source" : "http://pix11.com/2015/08/06/donald-trump-calls-rosie-odonnell-a-fat-pig-at-gop-debate/",
 				"result" : "Donald Trump"
 			},
@@ -268,7 +251,7 @@
 				"result" : "Donald Trump"
 			},
 			{
-				"quote" : "Donald Trump was the inspiration for the character [Biff Tannen in Back to the Future II]",
+				"quote" : "Donald Trump was the inspiration for the character [Biff Tannen in Back to the Future II].",
 				"source" : "http://www.rollingstone.com/politics/news/back-to-the-future-writer-biff-is-donald-trump-20151021",
 				"result" : "Bob Gale"
 			}
@@ -336,7 +319,7 @@
 				"result" : "Donald Trump"
 			},
 			{
-				"quote" : "Vladimir Putin is not on our team",
+				"quote" : "Vladimir Putin is not on our team.",
 				"source" : "http://www.cnn.com/2017/01/06/politics/obama-vladimir-putin-is-not-on-our-team/index.html",
 				"result" : "Barack Obama"
 			}
@@ -365,7 +348,7 @@
 				"result" : "Donald Trump"
 			},
 			{
-				"quote" : "Such poor leadership ability by the Mayor of San Juan, and others in Puerto Rico, who are not able to get their workers to help",
+				"quote" : "Such poor leadership ability by the Mayor of San Juan, and others in Puerto Rico, who are not able to get their workers to help.",
 				"source" : "https://twitter.com/realDonaldTrump/status/914089003745468417?ref_src=twsrc%5Etfw&ref_url=http%3A%2F%2Fwww.cnn.com%2F2017%2F09%2F30%2Fpolitics%2Ftrump-tweets-puerto-rico-mayor%2Findex.html",
 				"result" : "Donald Trump"
 			},
