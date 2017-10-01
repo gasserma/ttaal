@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ title }}</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script src="/static/scripts/main.js"></script>
+    <link rel="shortcut icon" href="/static/content/favicon.ico">
+</head>
+<script type="application/json" id="quotesjson">
+	{{quotesjson|safe}}
+</script>
+<style>
+.list-group-item:hover {
+    background: gray;
+    cursor: pointer;
+}
+</style>
+<body>
+<div class="container">  
+  <div class="page-header">
+    <h1>Two Trumps and a Lie</h1>
+    <h4 id="headerText">Pick the non-Trump quote</h4>
+    <h4 id="score"></h4>
+  </div>
+  <div class="list-group">
+    <li class="list-group-item" id="q1">
+      <h4 class="list-group-item-heading" id="q1q">QUOTE 1</h4>
+      <p class="list-group-item-text result" id="q1r">List Group Item Text</p>
+      <a href="https://www.w3schools.com" target="_blank" class="list-group-item-text source" id="q1s">Source</a>
+    </li >
+    <li class="list-group-item" id="q2">
+      <h4 class="list-group-item-heading" id="q2q">QUOTE 2</h4>
+      <p class="list-group-item-text result" id="q2r">List Group Item Text</p>
+      <a href="https://www.w3schools.com" target="_blank" class="list-group-item-text source" id="q2s">Source</a>
+    </li >
+    <li class="list-group-item" id="q3">
+      <h4 class="list-group-item-heading" id="q3q">QUOTE 3</h4>
+      <p class="list-group-item-text result" id="q3r">List Group Item Text</p>
+      <a href="https://www.w3schools.com" target="_blank" class="list-group-item-text source" id="q3s">Source</a>
+    </li>
+  </div>
+  <div>
+	<button type="button" class="btn btn-primary btn-block disabled">Next</button>
+  </div>
+</div>
+</body>

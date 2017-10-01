@@ -1,0 +1,57 @@
+{
+	"quotetriplets" : 
+	[
+		[	
+			{
+				"quote" : "hi mom",
+				"source" : "www.google.com",
+				"result" : "me"
+			},
+			{
+				"quote" : "Im retarted",
+				"source" : "www.google.com",
+				"result" : "Trump"
+			},
+			{
+				"quote" : "You are retarded",
+				"source" : "www.google.com",
+				"result" : "Trump"
+			}
+		],
+		[	
+			{
+				"quote" : "something polite",
+				"source" : "www.google.com",
+				"result" : "me"
+			},
+			{
+				"quote" : "fuck everybody",
+				"source" : "www.google.com",
+				"result" : "Trump"
+			},
+			{
+				"quote" : "fuck you",
+				"source" : "www.google.com",
+				"result" : "Trump"
+			}
+		],
+		[	
+			{
+				"quote" : "i am a pervert",
+				"source" : "www.google.com",
+				"result" : "Trump"
+			},
+			{
+				"quote" : "my daughter is sexy",
+				"source" : "www.google.com",
+				"result" : "Trump"
+			},
+			{
+				"quote" : "the dog needs to be walked",
+				"source" : "www.google.com",
+				"result" : "me"
+			}
+		]
+		
+	]
+}
