@@ -3,6 +3,9 @@ var quotes;
 $(document).ready(function () {	
 	var json = $('#quotesjson').html();	
 	quotes = jQuery.parseJSON(json);
+
+	// Just to get things going
+	firstSelection = false;
 	nextClicked();
 	
 	$('.list-group-item').on('click', function() {
@@ -22,7 +25,7 @@ $(document).ready(function () {
 
 var right = 0;
 var wrong = 0;
-var firstSelection = true;
+var firstSelection;
 
 function selectionMade(item){
 	$('.result').show(200);
@@ -56,7 +59,11 @@ function selectionMade(item){
 	}
 }
 
-function nextClicked(){	
+function nextClicked(){
+    if (firstSelection) {
+        return;
+    }
+
 	firstSelection = true;
 	$('.active').removeClass('active');
 	$('.result').hide();
