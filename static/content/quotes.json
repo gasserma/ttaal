@@ -1,57 +1,90 @@
 {
 	"quotetriplets" : 
 	[
-		[	
+		[
 			{
-				"quote" : "hi mom",
-				"source" : "http://www.google.com",
-				"result" : "me"
+				"quote" : "I'm building a wall. It's an inherent conflict of interest...But I say he's got bias. I want to build a wall. I'm going to build a wall.",
+				"source" : "http://www.politifact.com/wisconsin/article/2016/jun/08/donald-trumps-racial-comments-about-judge-trump-un/",
+				"result" : "Donald Trump"
 			},
 			{
-				"quote" : "Im retarted",
-				"source" : "http://www.google.com",
-				"result" : "Trump"
+				"quote" : "No, but because of other things. I mean because of other things.",
+				"source" : "http://www.politifact.com/wisconsin/article/2016/jun/08/donald-trumps-racial-comments-about-judge-trump-un/",
+				"result" : "Donald Trump"
 			},
 			{
-				"quote" : "You are retarded",
-				"source" : "http://www.google.com",
-				"result" : "Trump"
+				"quote" : "Claiming a person can't do their job because of their race is sort of like the textbook definition of a racist comment",
+				"source" : "http://www.politico.com/story/2016/06/paul-ryan-trump-judge-223991",
+				"result" : "Paul Ryan"
 			}
 		],
 		[	
 			{
-				"quote" : "something polite",
-				"source" : "http://www.google.com",
-				"result" : "me"
+				"quote" : "Well he said, you'll be the greatest president in the history of, but you know what, I'll take that also, but that you could be. But he said, will be the greatest president but I would also accept the other. In other words, if you do your job, but I accept that. Then I watched him interviewed and it was like he never even was here. It's incredible. I watched him interviewed a week later and it's like he was never in my office. And you can even say that.",
+				"source" : "http://www.huffingtonpost.com/entry/donald-trump-ap-interview_us_58fdb6fae4b06b9cb917f7ca",
+				"result" : "Donald Trump"
 			},
 			{
-				"quote" : "fuck everybody",
-				"source" : "http://www.google.com",
-				"result" : "Trump"
+				"quote" : "Well, what I mean by that is it almost shouldn't have been done. And you know, I really don't even know what I mean, because that was a long time ago, and who knows what was in my head. I think that it wasn't done correctly. In retrospect, it shouldn't have been done at all. It was sort of, you know, it was just done. It was just, we dropped bombs. Now if you look back, actually, that was probably the correct way of doing it, not going in, and not upsetting, giving them a lesson or not.",
+				"source" : "https://www.washingtonpost.com/blogs/right-turn/wp/2016/02/22/trumps-word-salads-conceal-his-ignorance/?utm_term=.1b699fd9247e",
+				"result" : "Donald Trump"
 			},
 			{
-				"quote" : "fuck you",
-				"source" : "http://www.google.com",
-				"result" : "Trump"
+				"quote" : "Word Salad (noun): a string of empty, incoherent, unintelligible, or nonsensical words or comments",
+				"source" : "https://www.merriam-webster.com/dictionary/word%20salad",
+				"result" : "Merriam Webster"
 			}
 		],
 		[	
 			{
-				"quote" : "i am a pervert",
-				"source" : "http://www.google.com",
-				"result" : "Trump"
+				"quote" : "I don't even wait. And when you're a star, they let you do it. You can do anything. Grab 'em by the pussy. You can do anything.",
+				"source" : "https://www.nytimes.com/2016/10/08/us/donald-trump-tape-transcript.html?mcubz=0",
+				"result" : "Donald Trump"
 			},
 			{
-				"quote" : "my daughter is sexy",
-				"source" : "http://www.google.com",
-				"result" : "Trump"
+				"quote" : "I've been so lucky in terms of that whole world [sexually transmitted diseases]. It is a dangerous world out there. It's scary, like Vietnam. Sort of like the Vietnam-era. It is my personal Vietnam. I feel like a great and very brave soldier.",
+				"source" : "http://www.thedailybeast.com/draft-dodger-trump-said-sleeping-around-was-my-personal-vietnam",
+				"result" : "Donald Trump"
 			},
 			{
-				"quote" : "the dog needs to be walked",
-				"source" : "http://www.google.com",
-				"result" : "me"
+				"quote" : "No woman should ever be described in these terms or talked about in this manner. Ever.",
+				"source" : "http://www.cnn.com/2016/10/07/politics/donald-trump-women-vulgar/index.html",
+				"result" : "Reince Priebus"
+			}
+		],
+		[
+			{
+				"quote" : "It sounded bad to me. Digital. They have digital. What is digital? And it's very complicated, you have to be Albert Einstein to figure it out. And I said-- and now they want to buy more aircraft carriers. I said, What system are you going to be. Sir, we're staying with digital. I said, No you're not. You going to goddamned steam, the digital costs hundreds of millions of dollars more money and it's no good.",
+				"source" : "https://www.theatlantic.com/technology/archive/2017/05/trump-wants-goddamned-steam-not-digital-catapults-on-aircraft-carriers/526386/",
+				"result" : "Donald Trump"
+			},
+			{
+				"quote" : "You know the catapult is quite important. So I said, what is this? He said we were going to this because we wanted to keep up with modern technology.",
+				"source" : "http://www.popularmechanics.com/military/weapons/a26478/donald-trump-emals-steam-catapult-aircraft-carrier/",
+				"result" : "Donald Trump"
+			},
+			{
+				"quote" : "They [digital catapults] offer you improved efficiency and are less maintenance intensive. It allows the aircraft carrier to operate more effectively, because the turn-around time is better.",
+				"source" : "http://www.slate.com/blogs/future_tense/2017/05/11/donald_trump_is_complaining_about_the_navy_s_catapults_what.html",
+				"result" : "Peter W. Singer"
+			}
+		],
+		[
+			{
+				"quote" : "The concept of global warming was created by and for the Chinese in order to make U.S. manufacturing non-competitive.",
+				"source" : "http://elitedaily.com/news/politics/71-donald-trumps-ridiculous-tweets-honor-71st-birthday/1992270/",
+				"result" : "Donald Trump"
+			},
+			{
+				"quote" : "It's freezing and snowing in New York--we need global warming!",
+				"source" : "http://elitedaily.com/news/politics/71-donald-trumps-ridiculous-tweets-honor-71st-birthday/1992270/",
+				"result" : "Donald Trump"
+			},
+			{
+				"quote" : "The violence that exists in the human heart is also manifest in the symptom of illness that we see in the Earth, the water, the air, and in living things.",
+				"source" : "https://www.weforum.org/agenda/2015/11/15-quotes-on-climate-change-by-world-leaders/",
+				"result" : "Pope Francis"
 			}
 		]
-		
 	]
 }

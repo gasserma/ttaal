@@ -35,14 +35,15 @@ function selectionMade(item){
 		$('.active').removeClass('active');
 		$('.result').each( function () {
 			if ($(this).data('answer')){
-				$(this).parent().effect("highlight", { color: 'green'}, 1000);
-				
+				$(this).parent().parent().effect("highlight", { color: 'green'}, 1000);
+
 				if ($(this).parent().parent().attr('id') == item.attr('id')) {
-					right += 1;
-					currentCorrect = true;
-				} else {
-					wrong += 1;
-				}
+                    right += 1;
+                    currentCorrect = true;
+                } else {
+                    wrong += 1;
+                }
+
 			}
 		});
 		
@@ -73,7 +74,7 @@ function nextClicked(){
 	
 	$('#q1q').text(quote[0].quote);
 	$('#q1s').text(quote[0].result);
-	if (quote[0].result != "Trump"){
+	if (quote[0].result != "Donald Trump"){
 		$('#q1s').data('answer', true);
 	} else {		
 		$('#q1s').data('answer', false);
@@ -82,7 +83,7 @@ function nextClicked(){
 	
 	$('#q2q').text(quote[1].quote);
 	$('#q2s').text(quote[1].result);
-	if (quote[1].result != "Trump"){
+	if (quote[1].result != "Donald Trump"){
 		$('#q2s').data('answer', true);
 	} else {		
 		$('#q2s').data('answer', false);
@@ -91,7 +92,7 @@ function nextClicked(){
 	
 	$('#q3q').text(quote[2].quote);
 	$('#q3s').text(quote[2].result);
-		if (quote[2].result != "Trump"){
+		if (quote[2].result != "Donald Trump"){
 		$('#q3s').data('answer', true);
 	} else {		
 		$('#q3s').data('answer', false);
