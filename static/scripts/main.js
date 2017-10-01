@@ -51,13 +51,6 @@ function selectionMade(item){
 		});
 		
 		$('#score').html('Right: <span class="label label-success">' + right + '</span> Wrong: <span class="label label-danger">' + wrong + '</span>');
-/*
-		if (currentCorrect) {
-			$('#score').effect("highlight", { color: 'green'}, 1000);
-		} else {
-			$('#score').effect("highlight", { color: 'red'}, 1000);	
-		}
-*/
 	}
 }
 
